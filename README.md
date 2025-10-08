@@ -99,4 +99,9 @@ This project is released under the MIT License.  Feel free to use, modify and sh
 
 ---
 
-*Created by [Your Name] as part of a personal portfolio project.*
+*Created 
+
+## Additional Notes
+
+This branch contains a minor update to demonstrate the GitHub pull request workflow. Making small, incremental changes and submitting them through pull requests is a best practice for collaborative and maintainable project development.
+by [Your Name] as part of a personal portfolio project.*
