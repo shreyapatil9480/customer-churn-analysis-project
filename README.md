@@ -43,7 +43,7 @@ python src/predict.py --input data/sample_input.csv
 
 ## Next Steps
 
-Containerize training pipeline for scheduled retraining.
+**Done.** Docker training image and scheduled retraining workflow are implemented — see ### Implemented below.
 
 ---
 *Analytics portfolio project — 2025-10*
@@ -56,3 +56,9 @@ Containerize training pipeline for scheduled retraining.
 pip install -r requirements.txt
 docker build -t train . && docker compose run train
 ```
+
+## Deployment
+
+The scheduled retraining workflow lives at `.github/workflows/retrain.yml`.
+Trigger manually from the Actions tab (`workflow_dispatch`) or wait for the cron schedule after merging.
+
